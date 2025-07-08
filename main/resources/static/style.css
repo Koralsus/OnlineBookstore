@@ -1,0 +1,145 @@
+/* ======= General ======= */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F0F4F8;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ======= Navbar ======= */
+
+.navbar{
+  background-color: #78909c;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar .nav-link {
+  color: #000 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #ffeb3b !important;
+}
+
+/* ======= Hero & Headings ======= */
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* ======= Book Cards ======= */
+
+.book-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.book-card .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.book-card .card-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.book-card .card-text {
+  font-size: 0.95rem;
+}
+
+/* ======= Buttons ======= */
+
+.btn-primary,
+.btn-outline-primary {
+  border-radius: 30px;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  opacity: 0.9;
+}
+
+/* ======= Cart ======= */
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.cart-total {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* ======= Forms ======= */
+
+.form-control:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.form-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* ======= Footer ======= */
+
+footer {
+  background-color: #78909c;
+  color: #000;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.dropdown-menu {
+  border-radius: 0.5rem;
+}
+
+.dropdown-menu a {
+  color: #000;
+}
+
+.dropdown-menu a:hover {
+  color: #000;
+  background-color: #f8f9fa;
+}
+
+.navbar .nav-link {
+  transition: color 0.2s;
+}
